@@ -27,5 +27,4 @@ class ViewPagerAdapter(
         // false if item is changed
         return arrayListFragment.find { it.hashCode().toLong() == itemId } != null
     }
-
 }

@@ -20,7 +20,7 @@ class GroupsFragment : Fragment() {
     private lateinit var myDBHelper: MyDBHelper
     private var arrayListFragment = arrayListOf<Fragment>()
     private lateinit var arrayListTypes: ArrayList<String>
-    lateinit var arrayListViewPager : ArrayList<String>
+    lateinit var arrayListViewPager: ArrayList<String>
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
